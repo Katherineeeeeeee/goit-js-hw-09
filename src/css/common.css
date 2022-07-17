@@ -16,3 +16,66 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* timer */
+.timer-body {
+  text-align: center;
+  justify-content: center;
+
+  background-color: #ffffff;
+}
+
+.input-container {
+  margin-bottom: 30px;
+}
+
+.flatpickr-input {
+  padding: 12px;
+  margin-right: 5px;
+  font-size: 17px;
+  text-align: center;
+
+  color: #0abab5;
+  border-color: #0abab5;
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 14px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #0abab5;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background-color: #09a49f;
+}
+
+.timer {
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+.field {
+  display: inline-block;
+  font-size: 50px;
+  color: #fff;
+}
+
+.value {
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #0abab5;
+}
+
+.label {
+  padding-top: 5px;
+  display: block;
+
+  font-size: 19px;
+  color: #0abab5;
+}
